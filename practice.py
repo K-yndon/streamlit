@@ -15,17 +15,16 @@ with intro:
     data = pd.read_csv('cardiff.csv')
     st.write(data.head())
 #hide streamlit style
-hide_st_style = """
+"""hide_st_style = """
                 <style>
                 #MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
-                .viewerBadge_container__1QSob styles_viewerBadge__1yB5_{visibility: hidden;}
-                .viewerBadge_link__1S137{visibility: hidden;}
                 </style>
                 """
+                
 st.markdown(hide_st_style, unsafe_allow_html=True)
-    
+   """
 with inputs:
     #creates 2 columns named col1 and col2. To put items in the columns you use the column name rather than st
     col1,col2 = st.columns(2)
