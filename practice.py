@@ -21,6 +21,7 @@ hide_st_style = """
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
                 .viewerBadge_container__1QSob styles_viewerBadge__1yB5_{visibility: hidden;}
+                .viewerBadge_link__1S137{visibility: hidden;}
                 </style>
                 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
