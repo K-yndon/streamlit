@@ -20,6 +20,7 @@ hide_st_style = """
                 #MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
                 header {visibility: hidden;}
+                .viewerBadge_container__1QSob styles_viewerBadge__1yB5_{visibility: hidden;}
                 </style>
                 """
 st.markdown(hide_st_style, unsafe_allow_html=True)
