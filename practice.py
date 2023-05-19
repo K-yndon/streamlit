@@ -22,7 +22,7 @@ hide_st_style = """
                 header {visibility: hidden;}
                 </style>
                 """
-st.markdown(hide_st_style, unsafe_allow_html=true)
+st.markdown(hide_st_style, unsafe_allow_html=True)
     
 with inputs:
     #creates 2 columns named col1 and col2. To put items in the columns you use the column name rather than st
