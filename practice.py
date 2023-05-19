@@ -15,7 +15,7 @@ with intro:
     data = pd.read_csv('cardiff.csv')
     st.write(data.head())
 #hide streamlit style
-"""hide_st_style = """
+"""hide_st_style = ""
                 <style>
                 #MainMenu {visibility: hidden;}
                 footer {visibility: hidden;}
